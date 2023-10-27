@@ -1,3 +1,9 @@
+import DisplayCountryBeaches from "./country-beaches/page";
+
 export default function Home() {
-    return <h1>Hello World of NextJS!</h1>
+    return (
+        <div style={{ width: 250 }}>
+            <DisplayCountryBeaches />
+        </div>
+    );
 }
